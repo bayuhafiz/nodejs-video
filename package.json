@@ -1,0 +1,43 @@
+{
+  "name": "recordrtc-nodejs",
+  "preferGlobal": true,
+  "version": "1.0.0",
+  "author": {
+    "name": "Bayu Hafiz",
+    "email": "bayu@colorblindlabs.com"
+  },
+  "description": "Records audio/video separately as wav/webm. POST both files in single HttpPost-Request to Node.js (FormData). Node.js code saves both files into disk. Node.js code invokes ffmpeg to merge wav/webm in single webm file. The merged webm file's URL is returned using same HTTP-callback for playback!",
+  "contributors": [
+    {
+      "name": "Bayu Hafiz",
+      "email": "bayu@colorblindlabs.com"
+    }
+  ],
+  "scripts": {
+    "start": "node index.js"
+  },
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bayuhafiz/nodejs-camera.git"
+  },
+  "keywords": [
+    "webrtc",
+    "javascript",
+    "RecordRTC",
+    "Node.js",
+    "ffmpeg",
+    "audio-recording",
+    "video-recording",
+    "gif-recording",
+    "audio/video recording",
+    "webp",
+    "webm",
+    "wav"
+  ],
+  "analyze": false,
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.6"
+  }
+}
