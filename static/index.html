@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Video Server - Beta</title>
+    <title>Video Capture - Beta</title>
     <script>
     if (location.href.indexOf('file:') == 0) {
         document.write('<h1 style="color:red;">Please load this HTML file on HTTP or HTTPS.</h1>');
@@ -59,18 +59,15 @@
 </head>
 
 <body>
-    <h1>
-        Video Server - Beta
-    </h1>
     <p>
         <video id="video" width="420" preload="none">
             <source src="videos/demo.mp4" type="video/mp4">
             <source src="videos/demo.ogg" type="video/ogg">
-            <img src="http://montague-terrace.s3.amazonaws.com/img/Video_Placeholder_Slide.jpg">
+            <img src="//montague-terrace.s3.amazonaws.com/img/Video_Placeholder_Slide.jpg">
         </video>
     </p>
     <p>
-        <video id="capture">
+        <video id="capture" width="420">
         </video>
     </p>
     <hr />
