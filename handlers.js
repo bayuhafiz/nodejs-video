@@ -1,7 +1,3 @@
-// Muaz Khan     - www.MuazKhan.com
-// MIT License   - www.WebRTC-Experiment.com/licence
-// Source Code   - github.com/muaz-khan/WebRTC-Experiment/tree/master/RecordRTC/RecordRTC-to-Nodejs
-
 var config = require('./config'),
     fs = require('fs'),
     sys = require('sys'),
@@ -11,6 +7,7 @@ function home(response) {
     response.writeHead(200, {
         'Content-Type': 'text/html'
     });
+    
     response.end(fs.readFileSync('./static/index.html'));
 }
 
